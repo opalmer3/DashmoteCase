@@ -1,7 +1,6 @@
 .projects-table{
-    overflow-x: hidden;
+    margin-bottom: 50px;
 }
-
 .projects-table-title{
     margin-bottom: 10px;
     font-weight: 600;
@@ -9,6 +8,7 @@
 
 @media(min-width: 768px){
     .projects-table{
+        margin: 0;
         height: 310px;
         overflow-x: hidden;
         overflow-y: scroll;
