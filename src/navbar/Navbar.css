@@ -12,7 +12,7 @@ nav{
     flex: 0 0 28px;
     margin: auto;
     /* Make sure icon still clickable when nav menu expanded */
-    z-index: 1;
+    z-index: 2;
 }
 
 .user-info{

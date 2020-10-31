@@ -29,9 +29,9 @@ function ProjectsTable(){
                 
                 <SearchBar q={q} handleChange={handleChange} />
 
+                <p className="projects-table-title">My Projects:</p>
+                
                 <div className="projects-table">
-                    
-                    <p className="projects-table-title">My Projects:</p>
                     
                     {filteredProjects.length === 0 ? 
                         "No projects" 
