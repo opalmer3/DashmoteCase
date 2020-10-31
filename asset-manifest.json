@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dashmote-case/static/css/main.b3a6e6a0.chunk.css",
+    "main.js": "/dashmote-case/static/js/main.2d1cf7ed.chunk.js",
+    "main.js.map": "/dashmote-case/static/js/main.2d1cf7ed.chunk.js.map",
+    "runtime-main.js": "/dashmote-case/static/js/runtime-main.eb0204f3.js",
+    "runtime-main.js.map": "/dashmote-case/static/js/runtime-main.eb0204f3.js.map",
+    "static/js/2.ff8b7f7e.chunk.js": "/dashmote-case/static/js/2.ff8b7f7e.chunk.js",
+    "static/js/2.ff8b7f7e.chunk.js.map": "/dashmote-case/static/js/2.ff8b7f7e.chunk.js.map",
+    "static/js/3.e6771200.chunk.js": "/dashmote-case/static/js/3.e6771200.chunk.js",
+    "static/js/3.e6771200.chunk.js.map": "/dashmote-case/static/js/3.e6771200.chunk.js.map",
+    "index.html": "/dashmote-case/index.html",
+    "static/css/main.b3a6e6a0.chunk.css.map": "/dashmote-case/static/css/main.b3a6e6a0.chunk.css.map",
+    "static/js/2.ff8b7f7e.chunk.js.LICENSE.txt": "/dashmote-case/static/js/2.ff8b7f7e.chunk.js.LICENSE.txt",
+    "static/media/user-image-min.90c64a2f.jpeg": "/dashmote-case/static/media/user-image-min.90c64a2f.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb0204f3.js",
+    "static/js/2.ff8b7f7e.chunk.js",
+    "static/css/main.b3a6e6a0.chunk.css",
+    "static/js/main.2d1cf7ed.chunk.js"
+  ]
+}
