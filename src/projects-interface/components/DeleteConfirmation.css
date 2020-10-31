@@ -1,0 +1,40 @@
+.delete-confirmation{
+    background: #e5e5e5;
+    position: absolute;
+    height: inherit;
+    border-radius: inherit;
+    width: 100%;
+    margin-left: 100%;
+    /* backwards compatibility support for flex */
+    display: -webkit-box; 
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /*  */
+    transition: all 0.5s linear;
+
+}
+
+.confirmation-content{
+    margin: auto;
+}
+
+.confirmation-message{
+    margin: 10px auto;
+}
+
+.confirmation-buttons{
+    margin: 10px auto;
+    text-align: center;
+}
+
+.confirmation-buttons svg{
+    margin: 0 15px;
+}
+.fill-red{
+    fill:#DE3756 !important; 
+}
+
+.fill-green{
+    fill: #5ECD75 !important;
+}

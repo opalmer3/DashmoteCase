@@ -1,0 +1,24 @@
+.projects-table{
+    overflow-x: hidden;
+}
+
+.projects-table-title{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+@media(min-width: 768px){
+    .projects-table{
+        height: 310px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .projects-table-container{
+        flex: 1;
+        margin: auto;
+    }
+    .projects-table-title{
+        display: none;
+    }   
+
+}

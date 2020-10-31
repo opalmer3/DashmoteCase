@@ -1,0 +1,39 @@
+.nav-side-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 50px 0;
+    max-width: 0;
+    overflow: hidden;
+    background: #fff;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;  
+    transition: all linear 0.3s;
+    
+}
+
+.side-links{
+    padding: 0 20px;
+}
+
+.side-links a{
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+    font-size: smaller;
+    font-weight: 300;
+}
+
+/* MEDIA QUERIES */
+
+/* Ipad and up */
+@media(min-width: 768px){
+    .nav-side-menu{
+        display:none;
+    }
+}

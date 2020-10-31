@@ -1,0 +1,62 @@
+nav{
+    /* backwards compatibility support for flex */
+    display: -webkit-box; 
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /*  */
+    padding: 20px 5%;
+}
+
+.hamburger-menu{
+    flex: 0 0 28px;
+    margin: auto;
+    /* Make sure icon still clickable when nav menu expanded */
+    z-index: 1;
+}
+
+.user-info{
+    flex: 1;
+    text-align: right;
+    /* backwards compatibility support for flex */
+    display: -webkit-box; 
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /*  */
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user-image{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.user-full-name{
+    display: none;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* MEDIA QUERIES */
+
+/* Ipad and up */
+@media(min-width: 768px){
+    nav{
+        border-bottom: 1px solid #D3D3D3;
+        padding: 20px 10%;
+    }
+
+    .hamburger-menu{
+        display: none;
+    }
+
+    .user-full-name{
+        display: inline-block;
+    }
+
+}

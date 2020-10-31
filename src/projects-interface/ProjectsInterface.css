@@ -1,0 +1,19 @@
+.projects-interface-container{
+    margin: 0 5%;
+}
+
+@media(min-width: 768px){
+.projects-interface-container{
+    /* backwards compatibility support for flex */
+    display: -webkit-box; 
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /*  */
+
+    /* full screen - height of nav bar * 2 to get table in centre of screen */
+    min-height: calc(100vh - 65px - 65px);
+
+    margin: 0 10%;
+}
+}

@@ -1,0 +1,116 @@
+.table-row{
+    /* backwards compatibility support for flex */
+    display: -webkit-box; 
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /*  */
+    background: #fff;
+    border-radius: 5px;
+    height: 70px;
+    margin: 10px 0;
+    box-shadow:  5px 5px 22px #d6d6d6, 
+             -5px -5px 22px #ffffff;
+    position: relative;
+}
+
+.table-row:first-of-type{
+    margin-top: 0;
+}
+
+.table-row:last-of-type{
+    margin-bottom: 0;
+}
+
+
+.project-category, .project-color-code, .project-name, .project-users, .project-dashboards, .project-delete{
+    margin: auto;
+}
+
+.project-color-code{
+    flex: 0 0 10px;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.project-category{
+    flex: 0 0 80px;
+    text-align: center;
+}
+
+.category{
+    /* backwards compatibility support for flex */
+    display: -webkit-box; 
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /*  */
+    border-radius: 50px;
+    height: 30px;
+    margin: auto;
+    width: 30px;
+}
+.category-content{
+    font-weight: 600;
+    margin: auto;
+}
+
+.project-name{
+    flex: 1;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.project-users, .project-dashboards{
+    display: none;
+    flex: 1;
+    text-align: center;
+}
+
+.project-users{
+    color:#52594D;
+    font-size: 0.9rem;
+}
+
+.dashboards-inner{
+    background: #CCF5E3;
+    color: #5ECD75;
+    border: 1px solid #5ECD75;
+    border-radius: 5px;
+    padding: 2px 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.project-delete{
+    display: none;
+    flex:  0 0 100px;
+    text-align: center;
+}
+
+.delete-button{
+    font-size: 0.9rem;
+    color: #DE3756;
+    cursor: pointer;
+}
+
+
+/*  ipad and up */
+@media (min-width: 768px){
+    .project-name{
+        flex: 0 0 20%;
+    }
+
+    .project-users, .project-dashboards, .project-delete{
+        display: initial;
+    }
+}
+
+/* 992px and up */
+@media(min-width: 992px){
+    .project-name{
+       flex: 0 0 40%;
+    }
+}

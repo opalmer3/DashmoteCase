@@ -1,0 +1,10 @@
+.greeting-banner{
+    margin: 15px 0;
+}
+
+/* hide greeting banner on ipad and up */
+@media(min-width: 768px){
+    .greeting-banner{
+        display: none;
+    }
+}
