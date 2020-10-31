@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dashmote-case/static/css/main.f7bb077f.chunk.css",
+    "main.css": "/dashmote-case/static/css/main.0110b121.chunk.css",
     "main.js": "/dashmote-case/static/js/main.f6620f04.chunk.js",
     "main.js.map": "/dashmote-case/static/js/main.f6620f04.chunk.js.map",
     "runtime-main.js": "/dashmote-case/static/js/runtime-main.eb0204f3.js",
@@ -10,14 +10,14 @@
     "static/js/3.e6771200.chunk.js": "/dashmote-case/static/js/3.e6771200.chunk.js",
     "static/js/3.e6771200.chunk.js.map": "/dashmote-case/static/js/3.e6771200.chunk.js.map",
     "index.html": "/dashmote-case/index.html",
-    "static/css/main.f7bb077f.chunk.css.map": "/dashmote-case/static/css/main.f7bb077f.chunk.css.map",
+    "static/css/main.0110b121.chunk.css.map": "/dashmote-case/static/css/main.0110b121.chunk.css.map",
     "static/js/2.ff8b7f7e.chunk.js.LICENSE.txt": "/dashmote-case/static/js/2.ff8b7f7e.chunk.js.LICENSE.txt",
     "static/media/user-image-min.90c64a2f.jpeg": "/dashmote-case/static/media/user-image-min.90c64a2f.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.eb0204f3.js",
     "static/js/2.ff8b7f7e.chunk.js",
-    "static/css/main.f7bb077f.chunk.css",
+    "static/css/main.0110b121.chunk.css",
     "static/js/main.f6620f04.chunk.js"
   ]
 }
