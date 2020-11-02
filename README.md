@@ -1,2 +1,2 @@
-Built with React
-Icons from MaterialUI
+Built with React.
+Icons from MaterialUI.
